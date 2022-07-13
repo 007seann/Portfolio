@@ -1,2 +1,4 @@
-# Portfoilo
- Sean's portfoilo
+# Carrer-Portfolio
+ Sean's portfolio
+
+https://007seann.github.io/Career-Portfolio

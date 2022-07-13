@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sean's Portfolio</title>
+  <script src="https://kit.fontawesome.com/9a75e3b371.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+
+</head> 
+<body>  
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="navbar__logo">
+      <i class="fa-solid fa-circle"></i>
+      <a href="#">Sean</a>
+    </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#skills">Skills</li>
+        <li class="navbar__menu__item" data-link="#work">My work</li>
+        <li class="navbar__menu__item" data-link="#testimonials">Testimonials</li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+      </ul>
+    
+      <!-- Toggle button-->
+      <button class="navbar__toggle-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+  </nav>  
+
+  <!-- Home -->
+  <section id="home">
+    <div class="home__container">
+      <img src="image/profile.png"
+      alt="Sean's profile photo"
+      class="home__avatar"
+      />
+      <h1 class="home__title">Hello, <br /> I am Sean </h1>
+      <h2 class="home__description">Blueberry Co-Founder</h2>
+      <button class="home__contact">Contact me</button>
+    </div>
+   </section>
+
+  <!-- About -->
+  <section id="about" class="section section__container">
+    <h1>About me</h1>
+    <p>
+      Studied AI at the University of Edinburgh
+      <br />Co-Founder Blueberry
+      <!-- <br />2026 100milion richer -->
+    </p>
+    <div class="about__majors">
+      <div class="major">
+        <div class="major__icon">
+          <i class="fa-brands fa-js"></i>
+        </div>
+        <h2 class="major__title">Front-end</h2>
+        <p class="major__description">
+          HTML, CSS, JavaScript, TypeScript, 
+          <br /> React, Web APIs
+        </p>
+        
+      </div>
+      <div class="major">
+        <div class="major__icon">
+          <i class="fa-solid fa-brain"></i>
+        </div>  
+        <h2 class="major__title">Machine-Learning</h2>
+        <p class="major__description">
+          Python, Java, Tensorflow
+          <br /> Data Science, Big data
+        </p>
+      </div>
+      <div class="major">
+        <div class="major__icon">
+          <i class="fa-brands fa-python"></i>
+        </div>     
+        <h2 class="major__title">Back-end</h2>
+        <p class="major__description">
+          Python, Java, JavaScript, Haskell
+          <br /> NodeJS, Rest APIs, Database(MongoDB)
+        </p>
+      </div>
+    </div>
+    <div class="about__jobs">
+      <div class="job">
+        <img 
+          src="image/jobs/UN.png"
+          alt="UN"
+          class="job__logo"
+        />
+        <div class="job__description">
+        <p class="job__name">
+          Intelligence corpsman, Interpreter, and TOD Operator 
+          <br />at UN Mission In South Sudan and ROK
+        </p>
+        <p class="job__period">2018-2020</p>
+        </div>
+      </div>
+      <div class="job">
+        <img 
+          src="image/jobs/Riseup.png"
+          alt=Riseup"
+          class="job__logo"
+        />
+        <div class="job__description">
+        <p class="job__name">
+          Project Manager and Student Mentor at rise-up NGO
+        </p>
+        <p class="job__period">2015-2017</p>
+      </div>
+      </div>
+      <div class="job">
+        <img 
+          src="image/jobs/LSP.png"
+          alt="UN"
+          class="job__logo"
+        />
+        <div class="job__description">
+        <p class="job__name">
+          LSP education program Co-Founder
+        </p>
+        <p class="job__period">2010-2013</p>
+      </div>
+    </div>
+    </div>  
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="section__container">    
+    <h1>Skills</h1>
+    <h2>Skills & Attributes</h2>
+    <p>
+      Entrepreneurship 
+      <br/ >AI Expert
+      <br/ >Fast-Learner
+      
+    </p>
+    <div class="skillset">
+      <div class="skillset__left">
+        <h3 class="skillset__title">Skills</h3>
+        <div class="skill">
+          <div class="skill__description">
+            <span>Python</span>
+            <span>60%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value" style="width: 60%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill__description">
+            <span>JavaScript</span>
+            <span>60%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value" style="width: 60%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill__description">
+            <span>React</span>
+            <span>15%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value" style="width: 15%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill__description">
+            <span>HTML & CSS</span>
+            <span>20%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value" style="width: 20%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill__description">
+            <span>Machine-Learning</span>
+            <span>20%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value" style="width: 20%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill__description">
+            <span>Java</span>
+            <span>60%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value" style="width: 60%"></div>
+          </div>
+        </div>
+      </div>
+      <div class="skillset__right">
+        <div class="tools">
+          <h3 class="skillset__title">Tools</h3>
+          <ul class="tools__list">
+            <li><span>Visual Studio Code</span></li>
+            <li><span>IntelliJ</span></li>
+            <li><span>Pycharm</span></li>
+            <li><span>...</span></li>
+           
+          </ul>
+        </div>
+        <div class="etc"></div>
+          <h3 class="skillset__title">ETC</h3>
+          <ul class="etc__list">
+            <li><span>Management</span></li>
+            <li><span>Leadership</span></li>
+            <li><span>Math</span></li>
+            <li><span>Git</span></li> 
+            <li><span>Haskell</span></li>
+            <li><span>...</span></li>
+          </ul>
+      </div>  
+    </div>
+  
+  </section>    
+
+  
+  <!-- Work -->
+  <section id="work" class="section">
+    <div class="section__container">
+      <h1>My work</h1>
+      <h3>Projects</h3>
+      <div class="work__categories">
+        <button class="category__btn selected" data-filter="*">All<span class="category__count">8</span></button>
+        <button class="category__btn" data-filter="front-end">Front-End<span class="category__count">2</span></button>
+        <button class="category__btn" data-filter="back-end">Back-End<span class="category__count">3</span></button>
+        <button class="category__btn" data-filter="machine-learning">Machine-Learning<span class="category__count">3</span></button>  
+      </div>
+  
+      <div class="work__projects">
+        <a 
+           href="https://github.com/007seann/Carrer-Portfolio" 
+           class="project"
+           target="blank"
+           data-type="front-end"
+           >
+          <img 
+            class="Project__img"
+            src="image/projects/project1.png"
+            alt="Project1">
+          <div class="project__description" >
+            <h3>Carrer Portfolio</h3>
+            <span>Creating carrer-portfolio from the scrach</span>
+          </div>
+        </a>
+  
+        <a 
+           href="https://github.com/007seann/Carrer-Portfolio" 
+           class="project"
+           target="blank"
+           data-type="front-end"
+           >
+          <img 
+            class="Project__img"
+            src="image/projects/project2.png"
+            alt="Project2">
+          <div class="project__description" >
+            <h3>Project 2</h3>
+            <span>Project Explanation</span>
+          </div>
+        </a>
+  
+        <a 
+           href="https://github.com/007seann" 
+           class="project"
+           target="blank"
+           data-type="back-end"
+           >
+          <img 
+            class="Project__img"
+            src="image/projects/project3.png"
+            alt="Project3">
+          <div class="project__description">
+            <h3>Dwitter(Twitter) Coding</h3>
+            <span>Desinging simple version of Twitter</span>
+          </div>
+        </a>
+  
+        <a 
+           href="https://github.com/007seann/Backend-Basis-with-Node" 
+           class="project"
+           target="blank"
+           data-type="back-end"
+           >
+          <img 
+            class="Project__img"
+            src="image/projects/project4.png"
+            alt="Project4">
+          <div class="project__description">
+            <h3>Java Zoo</h3>
+            <span>Project Explanation</span>
+          </div>
+        </a>
+  
+        <a 
+           href="https://github.com/007seann/JavaHomework" 
+           class="project"
+           target="blank"
+           data-type="back-end"
+           >
+          <img 
+            class="Project__img"
+            src="image/projects/project5.png"
+            alt="Project5">
+          <div class="project__description">
+            <h3>Project 5</h3>
+            <span>Project Explanation</span>
+          </div>
+        </a>
+  
+        <a 
+           href="https://github.com/007seann/Carrer-Portfolio" 
+           class="project"
+           target="blank"
+           data-type="machine-learning"
+           >
+          <img 
+            class="Project__img"
+            src="image/projects/project6.png"
+            alt="Project6">
+          <div class="project__description">
+            <h3>Project 6</h3>
+            <span>Project Explanation</span>
+          </div>
+        </a>
+  
+        <a 
+           href="https://github.com/007seann/Carrer-Portfolio" 
+           class="project"
+           target="blank"
+           data-type="machine-learning"
+           >
+          <img 
+            class="Project__img"
+            src="image/projects/project7.png"
+            alt="Project7">
+          <div class="project__description">
+            <h3>Project 7</h3>
+            <span>Project Explanation</span>
+          </div>
+        </a>
+  
+        <a 
+           href="https://github.com/007seann/Carrer-Portfolio" 
+           class="project"
+           target="blank"
+           data-type="machine-learning"
+           >
+          <img 
+            class="Project__img"
+            src="image/projects/project8.png"
+            alt="Project8">
+          <div class="project__description">
+            <h3>Project 8</h3>
+            <span>Project Explanation</span>
+          </div>
+        </a>
+  
+      </div> 
+    </div>
+    
+  </section>
+  
+  <!-- Testimonials -->
+  <section id="testimonials" class="section">
+    <div class="section__container">
+    <h1>Testimonial</h1>
+    <h3>See what they say about me</h3>
+    <div class="testimonials">
+      <div class="testimonial">
+        <img 
+          src="image/testimonial/elon-musk.png"
+          alt="Elon-Musk"
+          class="testimonial__avatar"
+         />
+         <div class="testimonial__speech-bubble">
+          <p>Sean is fucking awesome
+            <br />
+            <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            fuga libero nulla eveniet aperiam laborum, quis provident
+            quibusdam officiis reprehenderit, placeat neque perspiciatis vero
+            explicabo tempora, dignissimos accusantium inventore ducimus!
+          </p>
+          <p class="name"><a href="">Elon Musk</a> /Tesla</p>
+         </div>
+      </div>
+
+      <div class="testimonial">
+         <div class="testimonial__speech-bubble">
+          <p>I want Blueberry
+            <br />
+            <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            fuga libero nulla eveniet aperiam laborum, quis provident
+            quibusdam officiis reprehenderit, placeat neque perspiciatis vero
+            explicabo tempora, dignissimos accusantium inventore ducimus!
+          </p>
+          <p class="name"><a href="">Larry Page</a> /Alphabet</p>
+         </div>
+         <img src="image/testimonial/larry-page.png"
+         alt="Larry Page"
+         class="testimonial__avatar"
+         />
+      </div>
+    </div>
+      
+    </div>
+    
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h1 class="contact__title">Let's talk</h1>
+    <h2 class="contact__email">007seann@gmail.com</h2>
+    <div class="contact__links">
+      <a href="https://github.com/007seann" target="_blank">
+        <i class="fab fa-github"></i>
+        <!-- <i class="fa-brands fa-github"></i> -->
+      </a>
+      <a href="https://www.linkedin.com/in/sean-choi-7157181b6/" target="_blank">
+        <i class="fa fa-linkedin-square"></i>
+        <!-- <i class="fa-brands fa-linkedin"></i> -->
+      </a>
+    </div>
+    <p class="contact__rights">2022 Blueberry - All rights reserved
+       </p>
+
+       
+
+  </section>
+
+  <!-- Arrow up -->
+  <button class="arrow">
+    <i class="fa-solid fa-arrow-up"></i>
+    <!-- <i class="fa-solid fa-circle-arrow-up"></i> -->
+  </button>
+
+  
+
+</body>
+</html>
